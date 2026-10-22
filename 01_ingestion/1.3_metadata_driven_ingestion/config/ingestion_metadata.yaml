@@ -1,0 +1,26 @@
+tables:
+
+  - name: patients
+    source: /Volumes/engineering_labs/01_bronze/raw/synthea/patients.csv
+    target: 01_bronze.patients
+    format: csv
+
+  - name: encounters
+    source: /Volumes/engineering_labs/01_bronze/raw/synthea/encounters.csv
+    target: 01_bronze.encounters
+    format: csv
+
+  - name: conditions
+    source: /Volumes/engineering_labs/01_bronze/raw/synthea/conditions.csv
+    target: 01_bronze.conditions
+    format: csv
+
+  - name: medications
+    source: /Volumes/engineering_labs/01_bronze/raw/synthea/medications.csv
+    target: 01_bronze.medications
+    format: csv
+
+  - name: observations
+    source: /Volumes/engineering_labs/01_bronze/raw/synthea/observations.csv
+    target: 01_bronze.observations
+    format: csv
